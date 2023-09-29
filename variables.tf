@@ -9,7 +9,7 @@ variable "cluster_name" {
 }
 
 
-variable "AWS_ACCESS_KEY_ID" {
+variable "AWS_ACCESS_KEY" {
   description = "AWS access key ID"
   type        = string
 }
