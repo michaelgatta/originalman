@@ -7,3 +7,14 @@ variable "region" {
 variable "cluster_name" {
   default = "onyxquity-v3-pi"
 }
+
+
+variable "AWS_ACCESS_KEY_ID" {
+  description = "AWS access key ID"
+  type        = string
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS secret access key"
+  type        = string
+}
